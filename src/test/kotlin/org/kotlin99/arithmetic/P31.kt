@@ -11,5 +11,6 @@ class P31Test {
         assertThat((0..13).filter { it.isPrime() }, equalTo(
             listOf(2, 3, 5, 7, 11, 13))
         )
+        Thread.sleep(10000)
     }
 }
